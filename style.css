@@ -1,10 +1,10 @@
 body{
-	background-color: #332e29;
+	background-color: white;
 }
 #container{
-	width: 1100px;
+	width: 1330px;
 	margin: 0 auto;
-	background-color: white	
+	background-color: white;	
 }
 header{
 	height: 400px;
@@ -14,7 +14,6 @@ header{
 	background-position: center;
 	background-repeat: no-repeat;
 }
-
 header h2{
 	margin: 0;
 	padding-left: 40px;
@@ -25,16 +24,14 @@ header h2{
 }
 nav ul {
 	list-style-type: none;
-	margin: 230px;
+	margin: 95px;
 	margin-right: 20px;
 	padding: 0;
 	overflow: hidden;
 }
-
 nav li {
 	float: right;
 }
-
 nav li a {
 	background-color: #673131;
 	display: block;
@@ -44,13 +41,12 @@ nav li a {
 	text-decoration: none;
 	margin: 2px;
 }
-
 nav li a:hover {
 	background-color: #3a2626;
 }
 footer{
-	background-color:black;
-	padding:40px;
+	background-color: ;
+	padding:30px;
 }
 footer p{
 	margin-left: 40px;	
@@ -64,40 +60,69 @@ footer ul{
 }
 .foodpic {
 	width: 400px;
+	margin: 0 120px;
+	height: 500px;
+}
+.foodpic2 {
+	width: 400px;
+	margin: 0 120px;
+	height: 380px;
+}
+#logo{
+	margin; 0 0;
+	width: 100px;
+	height: 100px;
+}
+.one-column{
+	
 }
 .two-column {
 	display:grid;
-	grid-template-columns:50% 50%;
-	padding: 5px; 
+	grid-template-columns: 50% 50%;
+	padding: ; 
 	background-color: white;
 }
 .two-column div{
-	background-color:#673131;
-	margin-left: 10px;
-	margin-right: 10px;
+	background-color:;
+	margin-left: ;
+	margin-right: ;
+	position: center;
 }
 .two-column-left {
-	padding-left: 200px;	
+	padding-left 200px;	
+}
+.center{
+	position: center;
+	width: 500px;
+	height: ;
+	margin-left: 300px:
+}
+  .three-column{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-right: 0px;
+    height: 100px;
+    background-color: ;
+}
+.three-column div{
+    background-color: ;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .btn {
-	padding: 15px 32px;
+	padding: 5px 10px;
 	display: inline-block;
 	text-decoration: none;
 	border-radius: 4px
 }
 .btn-primary{
-	background-color: #ff000063;
+	background-color: #673131;
 	color: white;
 }
 .btn-primary:hover{
 	background: #3a2626;
 }
 .text{
-	margin-top: 200px;
-}
-.text2{
-	margin-top: 120px;
-}
-.text3{
-	margin-top: 90px
+	margin-left: 40px;
+	margin-right: 40px;
 }
