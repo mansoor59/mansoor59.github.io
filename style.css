@@ -1,0 +1,103 @@
+body{
+	background-color: #332e29;
+}
+#container{
+	width: 1100px;
+	margin: 0 auto;
+	background-color: white	
+}
+header{
+	height: 400px;
+	background-image: url(baghlava.jpg);
+	padding: 0px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+header h2{
+	margin: 0;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-size: 60px;
+	font-style: oblique;
+}
+nav ul {
+	list-style-type: none;
+	margin: 230px;
+	margin-right: 20px;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li {
+	float: right;
+}
+
+nav li a {
+	background-color: #673131;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 30px;
+	text-decoration: none;
+	margin: 2px;
+}
+
+nav li a:hover {
+	background-color: #3a2626;
+}
+footer{
+	background-color:black;
+	padding:40px;
+}
+footer p{
+	margin-left: 40px;	
+	color: white;
+	font-size: 1.2rem
+}	
+footer ul{
+	list-style-type: none;
+	color: white;
+	font-size: 1rem
+}
+.foodpic {
+	width: 400px;
+}
+.two-column {
+	display:grid;
+	grid-template-columns:50% 50%;
+	padding: 5px; 
+	background-color: white;
+}
+.two-column div{
+	background-color:#673131;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.two-column-left {
+	padding-left: 200px;	
+}
+.btn {
+	padding: 15px 32px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 4px
+}
+.btn-primary{
+	background-color: #ff000063;
+	color: white;
+}
+.btn-primary:hover{
+	background: #3a2626;
+}
+.text{
+	margin-top: 200px;
+}
+.text2{
+	margin-top: 120px;
+}
+.text3{
+	margin-top: 90px
+}
